@@ -14,6 +14,7 @@
 
 
 PRODUCT_COPY_FILES := \
+	vendor/motorola/shamu/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
 	vendor/motorola/shamu/proprietary/bin/adspd:system/bin/adspd \
 	vendor/motorola/shamu/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	vendor/motorola/shamu/proprietary/bin/diag_klog:system/bin/diag_klog \
@@ -35,6 +36,7 @@ PRODUCT_COPY_FILES := \
 	vendor/motorola/shamu/proprietary/bin/ramdump:system/bin/ramdump \
 	vendor/motorola/shamu/proprietary/bin/rundiag:system/bin/rundiag \
 	vendor/motorola/shamu/proprietary/bin/tcmd_mini:system/bin/tcmd_mini \
+	vendor/motorola/shamu/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/motorola/shamu/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
 	vendor/motorola/shamu/proprietary/bin/test_diag:system/bin/test_diag \
 	vendor/motorola/shamu/proprietary/bin/thermal-engine:system/bin/thermal-engine \
