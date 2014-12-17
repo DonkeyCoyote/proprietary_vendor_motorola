@@ -14,7 +14,6 @@
 
 
 PRODUCT_COPY_FILES := \
-	vendor/motorola/shamu/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
 	vendor/motorola/shamu/proprietary/bin/adspd:system/bin/adspd \
 	vendor/motorola/shamu/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	vendor/motorola/shamu/proprietary/bin/diag_klog:system/bin/diag_klog \
