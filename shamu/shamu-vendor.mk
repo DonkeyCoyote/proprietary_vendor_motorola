@@ -166,6 +166,10 @@ PRODUCT_COPY_FILES := \
 	vendor/motorola/shamu/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
 	vendor/motorola/shamu/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
 	vendor/motorola/shamu/proprietary/vendor/firmware/VRGain.bin:system/vendor/firmware/VRGain.bin \
+	vendor/motorola/shamu/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+	vendor/motorola/shamu/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+	vendor/motorola/shamu/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
+	vendor/motorola/shamu/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
 	vendor/motorola/shamu/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
 	vendor/motorola/shamu/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
 	vendor/motorola/shamu/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
@@ -234,6 +238,8 @@ PRODUCT_COPY_FILES := \
 	vendor/motorola/shamu/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+	vendor/motorola/shamu/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+	vendor/motorola/shamu/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
