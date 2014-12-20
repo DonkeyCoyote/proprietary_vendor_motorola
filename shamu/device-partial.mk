@@ -98,17 +98,20 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libadspd.so:system/lib/libadspd.so \
     $(LOCAL_PATH)/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     $(LOCAL_PATH)/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
+    $(LOCAL_PATH)/proprietary/lib/libflacencoder.so:system/lib/libflacencoder.so \
     $(LOCAL_PATH)/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     $(LOCAL_PATH)/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     $(LOCAL_PATH)/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     $(LOCAL_PATH)/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     $(LOCAL_PATH)/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    $(LOCAL_PATH)/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     $(LOCAL_PATH)/proprietary/lib/librecoglib.so:system/lib/librecoglib.so \
     $(LOCAL_PATH)/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     $(LOCAL_PATH)/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
     $(LOCAL_PATH)/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     $(LOCAL_PATH)/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \
     $(LOCAL_PATH)/proprietary/lib/hw/audio.primary.msm8084.so:system/lib/hw/audio.primary.msm8084.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
     $(LOCAL_PATH)/proprietary/lib/hw/gps.msm8084.so:system/lib/hw/gps.msm8084.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sound_trigger.primary.shamu.so:system/lib/hw/sound_trigger.primary.shamu.so \
     $(LOCAL_PATH)/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
