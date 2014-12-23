@@ -357,7 +357,6 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so:qcom \
     $(LOCAL_PATH)/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so:qcom \
     $(LOCAL_PATH)/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so:qcom \
-    $(LOCAL_PATH)/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so:qcom \
     $(LOCAL_PATH)/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
     $(LOCAL_PATH)/vendor/lib/libxml.so:system/vendor/lib/libxml.so:qcom \
     $(LOCAL_PATH)/vendor/lib/libQSEEComAPI.so:recovery/root/sbin/libQSEEComAPI.so \
