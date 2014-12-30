@@ -166,6 +166,10 @@ PRODUCT_COPY_FILES := \
 	vendor/motorola/shamu/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
 	vendor/motorola/shamu/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
 	vendor/motorola/shamu/proprietary/vendor/firmware/VRGain.bin:system/vendor/firmware/VRGain.bin \
+	vendor/motorola/shamu/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+	vendor/motorola/shamu/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+	vendor/motorola/shamu/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
+	vendor/motorola/shamu/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
 	vendor/motorola/shamu/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
 	vendor/motorola/shamu/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
 	vendor/motorola/shamu/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
@@ -176,6 +180,11 @@ PRODUCT_COPY_FILES := \
 	vendor/motorola/shamu/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
 	vendor/motorola/shamu/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
 	vendor/motorola/shamu/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+	vendor/motorola/shamu/proprietary/vendor/firmware/keymaster/keymaster.b00:recovery/root/vendor/firmware/keymaster/keymaster.b00 \
+	vendor/motorola/shamu/proprietary/vendor/firmware/keymaster/keymaster.b01:recovery/root/vendor/firmware/keymaster/keymaster.b01 \
+	vendor/motorola/shamu/proprietary/vendor/firmware/keymaster/keymaster.b02:recovery/root/vendor/firmware/keymaster/keymaster.b02 \
+	vendor/motorola/shamu/proprietary/vendor/firmware/keymaster/keymaster.b03:recovery/root/vendor/firmware/keymaster/keymaster.b03 \
+	vendor/motorola/shamu/proprietary/vendor/firmware/keymaster/keymaster.mdt:recovery/root/vendor/firmware/keymaster/keymaster.mdt \
 	vendor/motorola/shamu/proprietary/vendor/lib/libmdmcutback.so:system/vendor/lib/libmdmcutback.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/libmotext_inf.so:system/vendor/lib/libmotext_inf.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/libqmimotext.so:system/vendor/lib/libqmimotext.so \
@@ -229,6 +238,8 @@ PRODUCT_COPY_FILES := \
 	vendor/motorola/shamu/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+	vendor/motorola/shamu/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+	vendor/motorola/shamu/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -332,6 +343,7 @@ PRODUCT_COPY_FILES := \
 	vendor/motorola/shamu/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+	vendor/motorola/shamu/proprietary/vendor/lib/libQSEEComAPI.so:recovery/root/sbin/libQSEEComAPI.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
@@ -353,6 +365,7 @@ PRODUCT_COPY_FILES := \
 	vendor/motorola/shamu/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/hw/activity_recognition.msm8084.so:system/vendor/lib/hw/activity_recognition.msm8084.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/hw/flp.msm8084.so:system/vendor/lib/hw/flp.msm8084.so \
+	vendor/motorola/shamu/proprietary/vendor/lib/hw/keystore.msm8084.so:recovery/root/vendor/lib/hw/keystore.msm8084.so \
 	vendor/motorola/shamu/proprietary/vendor/lib/hw/sensors.msm8084.so:system/vendor/lib/hw/sensors.msm8084.so \
 	vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/lts_en_us_9_5_2b.raw:system/vendor/moto/audiomonitor/sensory/lts_en_us_9_5_2b.raw \
 	vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/nn_de_mfcc_16k_15_big_250_v3_4.raw:system/vendor/moto/audiomonitor/sensory/nn_de_mfcc_16k_15_big_250_v3_4.raw \
