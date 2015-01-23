@@ -90,7 +90,7 @@ PRODUCT_COPY_FILES := \
 	vendor/motorola/shamu/proprietary/etc/firmware/vpu.b12:system/etc/firmware/vpu.b12 \
 	vendor/motorola/shamu/proprietary/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
 	vendor/motorola/shamu/proprietary/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
-	vendor/motorola/shamu/proprietary/etc/permission/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
+	vendor/motorola/shamu/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
 	vendor/motorola/shamu/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
 	vendor/motorola/shamu/proprietary/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
 	vendor/motorola/shamu/proprietary/lib/libadspd.so:system/lib/libadspd.so \
