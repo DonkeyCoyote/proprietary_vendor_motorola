@@ -90,6 +90,7 @@ PRODUCT_COPY_FILES := \
 	vendor/motorola/shamu/proprietary/etc/firmware/vpu.b12:system/etc/firmware/vpu.b12 \
 	vendor/motorola/shamu/proprietary/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
 	vendor/motorola/shamu/proprietary/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
+        vendor/motorola/shamu/proprietary/etc/permissions/com.motorola.triggerenroll.xml:system/etc/permissions/com.motorola.triggerenroll.xml \
 	vendor/motorola/shamu/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
 	vendor/motorola/shamu/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
 	vendor/motorola/shamu/proprietary/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
@@ -106,6 +107,7 @@ PRODUCT_COPY_FILES := \
 	vendor/motorola/shamu/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
 	vendor/motorola/shamu/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
 	vendor/motorola/shamu/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
+        vendor/motorola/shamu/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \
 	vendor/motorola/shamu/proprietary/lib/hw/audio.primary.msm8084.so:system/lib/hw/audio.primary.msm8084.so \
 	vendor/motorola/shamu/proprietary/lib/hw/gps.msm8084.so:system/lib/hw/gps.msm8084.so \
 	vendor/motorola/shamu/proprietary/lib/hw/sound_trigger.primary.shamu.so:system/lib/hw/sound_trigger.primary.shamu.so \
