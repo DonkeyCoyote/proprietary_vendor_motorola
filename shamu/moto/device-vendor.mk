@@ -17,6 +17,6 @@ PRODUCT_PACKAGES += \
 
 LOCAL_STEM := shamu/device-partial.mk
 
-$(call inherit-product-if-exists, vendor/motorola/shamu/broadcom/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/motorola/shamu/moto/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/motorola/shamu/qcom/$(LOCAL_STEM))
+$(call inherit-product, vendor/motorola/shamu/broadcom/device-partial.mk)
+$(call inherit-product, vendor/motorola/shamu/moto/device-partial.mk)
+$(call inherit-product, vendor/motorola/shamu/qcom/device-partial.mk)
