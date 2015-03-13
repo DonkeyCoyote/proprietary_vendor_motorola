@@ -58,7 +58,6 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/qcom/proprietary/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw:qcom \
     vendor/motorola/shamu/qcom/proprietary/flp.conf:system/etc/flp.conf:qcom \
     vendor/motorola/shamu/qcom/proprietary/qmi_fw.conf:system/etc/qmi_fw.conf:qcom \
-    vendor/motorola/shamu/qcom/proprietary/sap.conf:system/etc/sap.conf:qcom \
     vendor/motorola/shamu/qcom/proprietary/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf:qcom \
     vendor/motorola/shamu/qcom/proprietary/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf:qcom \
     vendor/motorola/shamu/qcom/proprietary/audio.primary.msm8084.so:system/lib/hw/audio.primary.msm8084.so:qcom \
@@ -76,7 +75,6 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/qcom/proprietary/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so:qcom \
-    vendor/motorola/shamu/qcom/proprietary/gsiff_daemon:system/vendor/bin/gsiff_daemon:qcom \
     vendor/motorola/shamu/qcom/proprietary/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw:qcom \
     vendor/motorola/shamu/qcom/proprietary/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw:qcom \
     vendor/motorola/shamu/qcom/proprietary/adsp.b00:system/vendor/firmware/adsp.b00:qcom \
