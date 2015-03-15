@@ -282,5 +282,4 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/qcom/proprietary/libthermalioctl.so:system/vendor/lib/libthermalioctl.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/libtime_genoff.so:system/vendor/lib/libtime_genoff.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
-    vendor/motorola/shamu/qcom/proprietary/libxml.so:system/vendor/lib/libxml.so:qcom \
-
+    vendor/motorola/shamu/qcom/proprietary/libxml.so:system/vendor/lib/libxml.so:qcom
