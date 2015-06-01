@@ -63,6 +63,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     $(LOCAL_PATH)/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     $(LOCAL_PATH)/proprietary/etc/flp.conf:system/etc/flp.conf \
+    $(LOCAL_PATH)/proprietary/etc/fmas_eq.dat:system/etc/fmas_eq.dat \
     $(LOCAL_PATH)/proprietary/etc/qmi_fw.conf:system/etc/qmi_fw.conf \
     $(LOCAL_PATH)/proprietary/etc/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf \
     $(LOCAL_PATH)/proprietary/etc/diag/sensors_qxdm.cfg:system/etc/diag/sensors_qxdm.cfg \
@@ -110,6 +111,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/audio.primary.msm8084.so:system/lib/hw/audio.primary.msm8084.so \
     $(LOCAL_PATH)/proprietary/lib/hw/gps.msm8084.so:system/lib/hw/gps.msm8084.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sound_trigger.primary.shamu.so:system/lib/hw/sound_trigger.primary.shamu.so \
+    $(LOCAL_PATH)/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
     $(LOCAL_PATH)/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
     $(LOCAL_PATH)/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
     $(LOCAL_PATH)/proprietary/lib/soundfx/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so \
@@ -140,22 +142,28 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     $(LOCAL_PATH)/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     $(LOCAL_PATH)/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/left.boost.music.config:system/vendor/firmware/left.boost.music.config \
     $(LOCAL_PATH)/proprietary/vendor/firmware/left.boost.music.eq:system/vendor/firmware/left.boost.music.eq \
     $(LOCAL_PATH)/proprietary/vendor/firmware/left.boost_music_table.preset:system/vendor/firmware/left.boost_music_table.preset \
     $(LOCAL_PATH)/proprietary/vendor/firmware/left.boost_n1b12.patch:system/vendor/firmware/left.boost_n1b12.patch \
     $(LOCAL_PATH)/proprietary/vendor/firmware/left.boost_n1c2.patch:system/vendor/firmware/left.boost_n1c2.patch \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/left.boost.ringtone.config:system/vendor/firmware/left.boost.ringtone.config \
     $(LOCAL_PATH)/proprietary/vendor/firmware/left.boost.ringtone.eq:system/vendor/firmware/left.boost.ringtone.eq \
     $(LOCAL_PATH)/proprietary/vendor/firmware/left.boost_ringtone_table.preset:system/vendor/firmware/left.boost_ringtone_table.preset \
     $(LOCAL_PATH)/proprietary/vendor/firmware/left.boost.speaker:system/vendor/firmware/left.boost.speaker \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/left.boost.voice.config:system/vendor/firmware/left.boost.voice.config \
     $(LOCAL_PATH)/proprietary/vendor/firmware/left.boost.voice.eq:system/vendor/firmware/left.boost.voice.eq \
     $(LOCAL_PATH)/proprietary/vendor/firmware/left.boost_voice_table.preset:system/vendor/firmware/left.boost_voice_table.preset \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/right.boost.music.config:system/vendor/firmware/right.boost.music.config \
     $(LOCAL_PATH)/proprietary/vendor/firmware/right.boost.music.eq:system/vendor/firmware/right.boost.music.eq \
     $(LOCAL_PATH)/proprietary/vendor/firmware/right.boost_music_table.preset:system/vendor/firmware/right.boost_music_table.preset \
     $(LOCAL_PATH)/proprietary/vendor/firmware/right.boost_n1b12.patch:system/vendor/firmware/right.boost_n1b12.patch \
     $(LOCAL_PATH)/proprietary/vendor/firmware/right.boost_n1c2.patch:system/vendor/firmware/right.boost_n1c2.patch \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/right.boost.ringtone.config:system/vendor/firmware/right.boost.ringtone.config \
     $(LOCAL_PATH)/proprietary/vendor/firmware/right.boost.ringtone.eq:system/vendor/firmware/right.boost.ringtone.eq \
     $(LOCAL_PATH)/proprietary/vendor/firmware/right.boost_ringtone_table.preset:system/vendor/firmware/right.boost_ringtone_table.preset \
     $(LOCAL_PATH)/proprietary/vendor/firmware/right.boost.speaker:system/vendor/firmware/right.boost.speaker \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/right.boost.voice.config:system/vendor/firmware/right.boost.voice.config \
     $(LOCAL_PATH)/proprietary/vendor/firmware/right.boost.voice.eq:system/vendor/firmware/right.boost.voice.eq \
     $(LOCAL_PATH)/proprietary/vendor/firmware/right.boost_voice_table.preset:system/vendor/firmware/right.boost_voice_table.preset \
     $(LOCAL_PATH)/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
