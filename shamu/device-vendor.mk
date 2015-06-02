@@ -14,6 +14,11 @@
 
 # apps
 PRODUCT_PACKAGES += \
+    atfwd \
+    ims \
+    RCSBootstraputil \
+    RcsImsBootstraputil \
+    RcsService \
     TimeService
 
 # priv-app
@@ -24,7 +29,13 @@ PRODUCT_PACKAGES += \
 
 # jars
 PRODUCT_PACKAGES += \
-    org.simalliance.openmobileapi
+    com.motorola.ims.rcsmanager.jar \
+    com.verizon.hardware.telephony.ehrpd.jar \
+    com.verizon.hardware.telephony.lte.jar \
+    com.verizon.ims.jar \
+    org.simalliance.openmobileapi \
+    rcsimssettings.jar \
+    rcsservice.jar
 
 # libraries
 PRODUCT_PACKAGES += \
