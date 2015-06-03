@@ -70,8 +70,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/qmi_fw.conf:system/etc/qmi_fw.conf \
     $(LOCAL_PATH)/proprietary/etc/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf \
     $(LOCAL_PATH)/proprietary/etc/diag/sensors_qxdm.cfg:system/etc/diag/sensors_qxdm.cfg \
-    $(LOCAL_PATH)/proprietary/etc/diag/mdm/FIT_V15_audio.cfg:system/etc/diag/mdm/FIT_V15_audio.cfg \
-    $(LOCAL_PATH)/proprietary/etc/diag/mdm/FIT_V15.cfg:system/etc/diag/mdm/FIT_V15.cfg \
+    $(LOCAL_PATH)/proprietary/etc/diag/mdm/FIT_V16_1.cfg:system/etc/diag/mdm/FIT_V16_1.cfg \
+    $(LOCAL_PATH)/proprietary/etc/diag/mdm/FIT_V16_2_volte_full_ip.cfg:system/etc/diag/mdm/FIT_V16_2_volte_full_ip.cfg \
+    $(LOCAL_PATH)/proprietary/etc/diag/mdm/FIT_V16_3_audio.cfg:system/etc/diag/mdm/FIT_V16_3_audio.cfg \
     $(LOCAL_PATH)/proprietary/etc/diag/mdm/sensors_qxdm.cfg:system/etc/diag/mdm/sensors_qxdm.cfg \
     $(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
