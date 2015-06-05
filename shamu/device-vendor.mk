@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
 # priv-app
 PRODUCT_PACKAGES += \
     BuaContactAdapter \
+    CNEService \
     TriggerEnroll \
     TriggerTrainingService
 
