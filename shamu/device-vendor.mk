@@ -30,13 +30,13 @@ PRODUCT_PACKAGES += \
 
 # jars
 PRODUCT_PACKAGES += \
-    com.motorola.ims.rcsmanager.jar \
-    com.verizon.hardware.telephony.ehrpd.jar \
-    com.verizon.hardware.telephony.lte.jar \
-    com.verizon.ims.jar \
+    com.motorola.ims.rcsmanager \
+    com.verizon.hardware.telephony.ehrpd \
+    com.verizon.hardware.telephony.lte \
+    com.verizon.ims \
     org.simalliance.openmobileapi \
-    rcsimssettings.jar \
-    rcsservice.jar
+    rcsimssettings \
+    rcsservice
 
 # libraries
 PRODUCT_PACKAGES += \
