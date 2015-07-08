@@ -95,11 +95,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/vpu.b12:system/etc/firmware/vpu.b12 \
     $(LOCAL_PATH)/proprietary/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
     $(LOCAL_PATH)/proprietary/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
+    $(LOCAL_PATH)/proprietary/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/etc/permissions/com.motorola.DirectedSMSProxy.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.motorola.ims.rcsmanager.xml:system/etc/permissions/com.motorola.ims.rcsmanager.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.motorola.triggerenroll.xml:system/etc/permissions/com.motorola.triggerenroll.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.verizon.ims.xml:system/etc/permissions/com.verizon.ims.xml \
+    $(LOCAL_PATH)/proprietary/etc/permissions/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
