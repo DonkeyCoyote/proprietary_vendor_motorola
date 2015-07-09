@@ -19,14 +19,19 @@ PRODUCT_PACKAGES += \
     RCSBootstraputil \
     RcsImsBootstraputil \
     RcsService \
-    TimeService
+    TimeService \
+    VZWAPNLib
 
 # priv-app
 PRODUCT_PACKAGES += \
+    appdirectedsmspermission \
+    AppDirectedSMSProxy \
     BuaContactAdapter \
     CNEService \
+    MotoSignatureApp \
     TriggerEnroll \
-    TriggerTrainingService
+    TriggerTrainingService \
+    VZWAPNService
 
 # jars
 PRODUCT_PACKAGES += \
