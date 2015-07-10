@@ -19,6 +19,9 @@ $(call inherit-product, vendor/motorola/shamu/device-partial.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     atfwd \
+    DMAgent \
+    DMConfigUpdate \
+    HiddenMenu \
     ims \
     TimeService \
     VZWAPNLib
@@ -36,7 +39,14 @@ PRODUCT_PACKAGES += \
     AppDirectedSMSProxy \
     BuaContactAdapter \
     CNEService \
+    ConnMO \
+    CQATest \
+    DCMO \
+    DiagMon \
+    DMservice \
+    LifetimeData \
     MotoSignatureApp \
+    SprintDM \
     TriggerEnroll \
     TriggerTrainingService \
     VZWAPNService
