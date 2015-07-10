@@ -12,14 +12,20 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+$(call inherit-product, vendor/motorola/shamu/device-partial.mk)
+
 # apps
 PRODUCT_PACKAGES += \
     atfwd \
+    DMAgent \
+    DMConfigUpdate \
+    HiddenMenu \
     ims \
     RCSBootstraputil \
     RcsImsBootstraputil \
     RcsService \
     TimeService \
+    UiccWatchdog \
     VZWAPNLib
 
 # priv-app
@@ -28,7 +34,15 @@ PRODUCT_PACKAGES += \
     AppDirectedSMSProxy \
     BuaContactAdapter \
     CNEService \
+    ConnMO \
+    CQATest \
+    DCMO \
+    DiagMon \
+    DMservice \
+    LifetimeData \
     MotoSignatureApp \
+    SmartcardService \
+    SprintDM \
     TriggerEnroll \
     TriggerTrainingService \
     VZWAPNService
@@ -46,5 +60,3 @@ PRODUCT_PACKAGES += \
 # libraries
 PRODUCT_PACKAGES += \
     libtime_genoff
-
-$(call inherit-product, vendor/motorola/shamu/device-partial.mk)
