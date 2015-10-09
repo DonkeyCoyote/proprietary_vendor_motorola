@@ -17,6 +17,10 @@
 LOCAL_PATH := vendor/motorola/shamu/proprietary
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    $(LOCAL_PATH)/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
+    $(LOCAL_PATH)/lib/libdmengine.so:system/lib/libdmengine.so \
+    $(LOCAL_PATH)/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
     $(LOCAL_PATH)/bin/adspd:system/bin/adspd \
     $(LOCAL_PATH)/lib/libadspd-jni.so:system/lib/libadspd-jni.so \
     $(LOCAL_PATH)/lib/libadspd.so:system/lib/libadspd.so \
@@ -43,10 +47,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     $(LOCAL_PATH)/etc/fmas_eq.dat:system/etc/fmas_eq.dat \
     $(LOCAL_PATH)/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
+    $(LOCAL_PATH)/lib/hw/audio.primary.msm8084.so:system/lib/hw/audio.primary.msm8084.so \
     $(LOCAL_PATH)/lib/hw/sound_trigger.primary.shamu.so:system/lib/hw/sound_trigger.primary.shamu.so \
+    $(LOCAL_PATH)/lib/libaudioroute.so:system/lib/libaudioroute.so \
     $(LOCAL_PATH)/lib/libflacencoder.so:system/lib/libflacencoder.so \
     $(LOCAL_PATH)/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
+    $(LOCAL_PATH)/lib/libtinycompress.so:system/lib/libtinycompress.so \
     $(LOCAL_PATH)/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
+    $(LOCAL_PATH)/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
+    $(LOCAL_PATH)/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
     $(LOCAL_PATH)/lib/soundfx/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so \
     $(LOCAL_PATH)/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     $(LOCAL_PATH)/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -54,6 +63,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     $(LOCAL_PATH)/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
     $(LOCAL_PATH)/vendor/firmware/acdb.mbn:system/vendor/firmware/acdb.mbn \
+    $(LOCAL_PATH)/vendor/firmware/cy8c20247_24lkxi.hex:system/vendor/firmware/cy8c20247_24lkxi.hex \
     $(LOCAL_PATH)/vendor/firmware/left.boost.music.config:system/vendor/firmware/left.boost.music.config \
     $(LOCAL_PATH)/vendor/firmware/left.boost.music.eq:system/vendor/firmware/left.boost.music.eq \
     $(LOCAL_PATH)/vendor/firmware/left.boost_music_table.preset:system/vendor/firmware/left.boost_music_table.preset \
@@ -114,6 +124,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw \
     $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw \
     $(LOCAL_PATH)/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    $(LOCAL_PATH)/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     $(LOCAL_PATH)/vendor/lib/libactuator_lc898122_camcorder.so:system/vendor/lib/libactuator_lc898122_camcorder.so \
     $(LOCAL_PATH)/vendor/lib/libactuator_lc898122_camera.so:system/vendor/lib/libactuator_lc898122_camera.so \
     $(LOCAL_PATH)/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
@@ -141,6 +152,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/libchromatix_imx135_video_hd.so:system/vendor/lib/libchromatix_imx135_video_hd.so \
     $(LOCAL_PATH)/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
     $(LOCAL_PATH)/vendor/lib/libchromatix_imx214_cpp.so:system/vendor/lib/libchromatix_imx214_cpp.so \
+    $(LOCAL_PATH)/vendor/lib/libchromatix_imx214_cpp_snap.so:system/vendor/lib/libchromatix_imx214_cpp_snap.so \
     $(LOCAL_PATH)/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so \
     $(LOCAL_PATH)/vendor/lib/libchromatix_imx214_hfr_120.so:system/vendor/lib/libchromatix_imx214_hfr_120.so \
     $(LOCAL_PATH)/vendor/lib/libchromatix_imx214_hfr_60.so:system/vendor/lib/libchromatix_imx214_hfr_60.so \
@@ -237,11 +249,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     $(LOCAL_PATH)/bin/diag_klog:system/bin/diag_klog \
     $(LOCAL_PATH)/bin/diag_mdlog:system/bin/diag_mdlog \
+    $(LOCAL_PATH)/etc/diag/mdm/Connection_Issues_V6+DPL+UIM.cfg:system/etc/diag/mdm/Connection_Issues_V6+DPL+UIM.cfg \
     $(LOCAL_PATH)/etc/diag/mdm/FIT_V16_1.cfg:system/etc/diag/mdm/FIT_V16_1.cfg \
     $(LOCAL_PATH)/etc/diag/mdm/FIT_V16_2_volte_full_ip.cfg:system/etc/diag/mdm/FIT_V16_2_volte_full_ip.cfg \
     $(LOCAL_PATH)/etc/diag/mdm/FIT_V16_3_audio.cfg:system/etc/diag/mdm/FIT_V16_3_audio.cfg \
     $(LOCAL_PATH)/etc/diag/mdm/sensors_qxdm.cfg:system/etc/diag/mdm/sensors_qxdm.cfg \
     $(LOCAL_PATH)/etc/diag/sensors_qxdm.cfg:system/etc/diag/sensors_qxdm.cfg \
+    $(LOCAL_PATH)/etc/diag/mdm/voice-call-min-log.cfg:system/etc/diag/mdm/voice-call-min-log.cfg \
+    $(LOCAL_PATH)/etc/diag/voice-call-min-log.cfg:system/etc/diag/voice-call-min-log.cfg \
+    $(LOCAL_PATH)/etc/diag/mdm/audio_voice_apr.cfg:system/etc/diag/mdm/audio_voice_apr.cfg \
+    $(LOCAL_PATH)/etc/diag/audio_voice_apr.cfg:system/etc/diag/audio_voice_apr.cfg \
     $(LOCAL_PATH)/bin/qseecomd:system/bin/qseecomd \
     $(LOCAL_PATH)/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     $(LOCAL_PATH)/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
@@ -295,19 +312,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     $(LOCAL_PATH)/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     $(LOCAL_PATH)/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
-    $(LOCAL_PATH)/app/ims/lib/arm/libimscamera_jni.so:system/app/ims/lib/arm/libimscamera_jni.so \
-    $(LOCAL_PATH)/app/ims/lib/arm/libimsmedia_jni.so:system/app/ims/lib/arm/libimsmedia_jni.so \
     $(LOCAL_PATH)/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     $(LOCAL_PATH)/bin/imsdatadaemon:system/bin/imsdatadaemon \
     $(LOCAL_PATH)/bin/imsqmidaemon:system/bin/imsqmidaemon \
     $(LOCAL_PATH)/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
     $(LOCAL_PATH)/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
     $(LOCAL_PATH)/etc/permissions/com.verizon.ims.xml:system/etc/permissions/com.verizon.ims.xml \
-    $(LOCAL_PATH)/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
     $(LOCAL_PATH)/etc/permissions/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml \
     $(LOCAL_PATH)/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
-    $(LOCAL_PATH)/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
-    $(LOCAL_PATH)/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     $(LOCAL_PATH)/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     $(LOCAL_PATH)/vendor/lib/lib-ims-setting-jni.so:system/vendor/lib/lib-ims-setting-jni.so \
     $(LOCAL_PATH)/vendor/lib/lib-ims-settings.so:system/vendor/lib/lib-ims-settings.so \
@@ -336,6 +348,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     $(LOCAL_PATH)/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     $(LOCAL_PATH)/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    $(LOCAL_PATH)/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
     $(LOCAL_PATH)/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     $(LOCAL_PATH)/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     $(LOCAL_PATH)/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -364,7 +377,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     $(LOCAL_PATH)/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     $(LOCAL_PATH)/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    $(LOCAL_PATH)/vendor/lib/libsysutils_local.so:system/vendor/lib/libsysutils_local.so \
     $(LOCAL_PATH)/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     $(LOCAL_PATH)/bin/sensors.qcom:system/bin/sensors.qcom \
     $(LOCAL_PATH)/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
@@ -373,6 +385,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     $(LOCAL_PATH)/bin/thermal-engine:system/bin/thermal-engine \
     $(LOCAL_PATH)/etc/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf \
+    $(LOCAL_PATH)/vendor/lib/libsysutils_local.so:system/vendor/lib/libsysutils_local.so \
     $(LOCAL_PATH)/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     $(LOCAL_PATH)/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     $(LOCAL_PATH)/bin/time_daemon:system/bin/time_daemon \
@@ -384,6 +397,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bin/usbhub_init:system/bin/usbhub_init \
     $(LOCAL_PATH)/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/etc/permissions/com.motorola.DirectedSMSProxy.xml \
     $(LOCAL_PATH)/etc/permissions/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml \
+    $(LOCAL_PATH)/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
     $(LOCAL_PATH)/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
     $(LOCAL_PATH)/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
     $(LOCAL_PATH)/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
@@ -420,4 +434,3 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/firmware/keymaster/keymaster.b03:recovery/root/vendor/firmware/keymaster/keymaster.b03 \
     $(LOCAL_PATH)/vendor/firmware/keymaster/keymaster.mdt:recovery/root/vendor/firmware/keymaster/keymaster.mdt \
     $(LOCAL_PATH)/lib/hw/keystore.msm8084.so:recovery/root/vendor/lib/hw/keystore.msm8084.so
-

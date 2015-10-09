@@ -19,7 +19,6 @@ $(call inherit-product, vendor/motorola/shamu/device-partial.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     atfwd \
-    DMAgent \
     DMConfigUpdate \
     HiddenMenu \
     ims \
@@ -43,7 +42,7 @@ PRODUCT_PACKAGES += \
     CQATest \
     DCMO \
     DiagMon \
-    DMservice \
+    DMService \
     LifetimeData \
     MotoSignatureApp \
     SprintDM \
@@ -54,3 +53,10 @@ PRODUCT_PACKAGES += \
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
     libtime_genoff
+
+# Symlinks
+PRODUCT_PACKAGES += \
+    libimsmedia_jni.so \
+    libimscamera_jni.so \
+    libdmengine.so \
+    libdmjavaplugin.so
