@@ -387,4 +387,11 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so:qcom \
     $(LOCAL_PATH)/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so:qcom \
     $(LOCAL_PATH)/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
-    $(LOCAL_PATH)/vendor/lib/libxml.so:system/vendor/lib/libxml.so:qcom
+    $(LOCAL_PATH)/vendor/lib/libxml.so:system/vendor/lib/libxml.so:qcom \
+    $(LOCAL_PATH)/vendor/lib/libQSEEComAPI.so:recovery/root/sbin/libQSEEComAPI.so \
+    $(LOCAL_PATH)/vendor/firmware/keymaster/keymaster.b00:recovery/root/vendor/firmware/keymaster/keymaster.b00 \
+    $(LOCAL_PATH)/vendor/firmware/keymaster/keymaster.b01:recovery/root/vendor/firmware/keymaster/keymaster.b01 \
+    $(LOCAL_PATH)/vendor/firmware/keymaster/keymaster.b02:recovery/root/vendor/firmware/keymaster/keymaster.b02 \
+    $(LOCAL_PATH)/vendor/firmware/keymaster/keymaster.b03:recovery/root/vendor/firmware/keymaster/keymaster.b03 \
+    $(LOCAL_PATH)/vendor/firmware/keymaster/keymaster.mdt:recovery/root/vendor/firmware/keymaster/keymaster.mdt \
+    $(LOCAL_PATH)/lib/hw/keystore.msm8084.so:recovery/root/vendor/lib/hw/keystore.msm8084.so
