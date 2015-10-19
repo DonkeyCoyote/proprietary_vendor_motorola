@@ -14,49 +14,12 @@
 
 $(call inherit-product, vendor/motorola/shamu/device-partial.mk)
 
-# apps
+# app
 PRODUCT_PACKAGES += \
-    atfwd \
-    DMAgent \
-    DMConfigUpdate \
-    HiddenMenu \
-    ims \
-    RCSBootstraputil \
-    RcsImsBootstraputil \
-    RcsService \
-    TimeService \
-    UiccWatchdog \
-    VZWAPNLib
+    BuaContactAdapter
+
+# framework
+
+# lib
 
 # priv-app
-PRODUCT_PACKAGES += \
-    appdirectedsmspermission \
-    AppDirectedSMSProxy \
-    BuaContactAdapter \
-    CNEService \
-    ConnMO \
-    CQATest \
-    DCMO \
-    DiagMon \
-    DMservice \
-    LifetimeData \
-    MotoSignatureApp \
-    SmartcardService \
-    SprintDM \
-    TriggerEnroll \
-    TriggerTrainingService \
-    VZWAPNService
-
-# jars
-PRODUCT_PACKAGES += \
-    com.motorola.ims.rcsmanager \
-    com.verizon.hardware.telephony.ehrpd \
-    com.verizon.hardware.telephony.lte \
-    com.verizon.ims \
-    org.simalliance.openmobileapi \
-    rcsimssettings \
-    rcsservice
-
-# libraries
-PRODUCT_PACKAGES += \
-    libtime_genoff
