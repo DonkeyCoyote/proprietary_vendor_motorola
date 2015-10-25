@@ -14,7 +14,6 @@
 
 LOCAL_PATH := vendor/motorola/shamu/proprietary
 
-# Motorola blob(s) necessary for Shamu hardware
 PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/bin/adspd:system/bin/adspd:moto \
     $(LOCAL_PATH)/bin/ramdump:system/bin/ramdump:moto \
@@ -103,22 +102,16 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/svsid_frfr_1_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_frfr_1_1.raw:moto \
     $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/svsid_it_it_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_it_it_1_0.raw:moto \
     $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/svsid_ptbr_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_ptbr_1_0.raw:moto \
-    $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/vsid_triggerogn1_dede_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_dede_1_0.raw:moto \
+    $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_dede_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_dede_1_0.raw:moto \
     $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_enuk_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_enuk_1_0.raw:moto \
     $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_eses_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_eses_1_0.raw:moto \
     $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_itit_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_itit_1_0.raw:moto \
     $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/svsid_triggerogn_enus_3_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_enus_3_1.raw:moto \
     $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw:moto \
-    $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:moto
-
-# Broadcom blob(s) necessary for Shamu hardware
-PRODUCT_COPY_FILES := \
+    $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:moto \
     $(LOCAL_PATH)/vendor/firmware/bcm20795_firmware.ncd:system/vendor/firmware/bcm20795_firmware.ncd:broadcom \
     $(LOCAL_PATH)/vendor/firmware/bcm4354A2.hcd:system/vendor/firmware/bcm4354A2.hcd:broadcom \
-    $(LOCAL_PATH)/xbin/wlutil:system/xbin/wlutil:broadcom
-
-# Qualcomm blob(s) necessary for Shamu hardware
-PRODUCT_COPY_FILES := \
+    $(LOCAL_PATH)/xbin/wlutil:system/xbin/wlutil:broadcom \
     $(LOCAL_PATH)/bin/bridgemgrd:system/bin/bridgemgrd:qcom \
     $(LOCAL_PATH)/bin/diag_klog:system/bin/diag_klog:qcom \
     $(LOCAL_PATH)/bin/diag_mdlog:system/bin/diag_mdlog:qcom \
