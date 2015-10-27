@@ -16,7 +16,6 @@ LOCAL_PATH := vendor/motorola/shamu/proprietary
 
 PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/bin/adspd:system/bin/adspd:moto \
-    $(LOCAL_PATH)/bin/ramdump:system/bin/ramdump:moto \
     $(LOCAL_PATH)/bin/tcmd_mini:system/bin/tcmd_mini:moto \
     $(LOCAL_PATH)/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb:moto \
     $(LOCAL_PATH)/etc/diag/mdm/FIT_V16_2_volte_full_ip.cfg:system/etc/diag/mdm/FIT_V16_2_volte_full_ip.cfg:moto \
@@ -74,6 +73,12 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/vendor/lib/libmdmcutback.so:system/vendor/lib/libmdmcutback.so:moto \
     $(LOCAL_PATH)/vendor/lib/libmotext_inf.so:system/vendor/lib/libmotext_inf.so:moto \
     $(LOCAL_PATH)/vendor/lib/libqmimotext.so:system/vendor/lib/libqmimotext.so:moto \
+    $(LOCAL_PATH)/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    $(LOCAL_PATH)/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    $(LOCAL_PATH)/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
+    $(LOCAL_PATH)/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    $(LOCAL_PATH)/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    $(LOCAL_PATH)/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/lts_en_us_9_5_2b.raw:system/vendor/moto/audiomonitor/sensory/lts_en_us_9_5_2b.raw:moto \
     $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/nn_de_mfcc_16k_15_big_250_v3_4.raw:system/vendor/moto/audiomonitor/sensory/nn_de_mfcc_16k_15_big_250_v3_4.raw:moto \
     $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/nn_en_uk_mfcc_16k_15_big_250_v2_2.raw:system/vendor/moto/audiomonitor/sensory/nn_en_uk_mfcc_16k_15_big_250_v2_2.raw:moto \
@@ -111,40 +116,21 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:moto \
     $(LOCAL_PATH)/vendor/firmware/bcm20795_firmware.ncd:system/vendor/firmware/bcm20795_firmware.ncd:broadcom \
     $(LOCAL_PATH)/vendor/firmware/bcm4354A2.hcd:system/vendor/firmware/bcm4354A2.hcd:broadcom \
-    $(LOCAL_PATH)/xbin/wlutil:system/xbin/wlutil:broadcom \
     $(LOCAL_PATH)/bin/bridgemgrd:system/bin/bridgemgrd:qcom \
     $(LOCAL_PATH)/bin/diag_klog:system/bin/diag_klog:qcom \
     $(LOCAL_PATH)/bin/diag_mdlog:system/bin/diag_mdlog:qcom \
-    $(LOCAL_PATH)/bin/diag_qshrink4_daemon:system/bin/diag_qshrink4_daemon:qcom \
     $(LOCAL_PATH)/bin/irsc_util:system/bin/irsc_util:qcom \
     $(LOCAL_PATH)/bin/ks:system/bin/ks:qcom \
     $(LOCAL_PATH)/bin/mdm_helper:system/bin/mdm_helper:qcom \
     $(LOCAL_PATH)/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon:qcom \
     $(LOCAL_PATH)/bin/mpdecision:system/bin/mpdecision:qcom \
     $(LOCAL_PATH)/bin/netmgrd:system/bin/netmgrd:qcom \
-    $(LOCAL_PATH)/bin/PktRspTest:system/bin/PktRspTest:qcom \
     $(LOCAL_PATH)/bin/port-bridge:system/bin/port-bridge:qcom \
-    $(LOCAL_PATH)/bin/qmi-framework-tests/qmi_ping_clnt_test_0000:system/bin/qmi-framework-tests/qmi_ping_clnt_test_0000:qcom \
-    $(LOCAL_PATH)/bin/qmi-framework-tests/qmi_ping_clnt_test_0001:system/bin/qmi-framework-tests/qmi_ping_clnt_test_0001:qcom \
-    $(LOCAL_PATH)/bin/qmi-framework-tests/qmi_ping_clnt_test_1000:system/bin/qmi-framework-tests/qmi_ping_clnt_test_1000:qcom \
-    $(LOCAL_PATH)/bin/qmi-framework-tests/qmi_ping_clnt_test_1001:system/bin/qmi-framework-tests/qmi_ping_clnt_test_1001:qcom \
-    $(LOCAL_PATH)/bin/qmi-framework-tests/qmi_ping_clnt_test_2000:system/bin/qmi-framework-tests/qmi_ping_clnt_test_2000:qcom \
-    $(LOCAL_PATH)/bin/qmi-framework-tests/qmi_ping_svc:system/bin/qmi-framework-tests/qmi_ping_svc:qcom \
-    $(LOCAL_PATH)/bin/qmi-framework-tests/qmi_ping_test:system/bin/qmi-framework-tests/qmi_ping_test:qcom \
-    $(LOCAL_PATH)/bin/qmi-framework-tests/qmi_test_service_clnt_test_0000:system/bin/qmi-framework-tests/qmi_test_service_clnt_test_0000:qcom \
-    $(LOCAL_PATH)/bin/qmi-framework-tests/qmi_test_service_clnt_test_0001:system/bin/qmi-framework-tests/qmi_test_service_clnt_test_0001:qcom \
-    $(LOCAL_PATH)/bin/qmi-framework-tests/qmi_test_service_clnt_test_1000:system/bin/qmi-framework-tests/qmi_test_service_clnt_test_1000:qcom \
-    $(LOCAL_PATH)/bin/qmi-framework-tests/qmi_test_service_clnt_test_1001:system/bin/qmi-framework-tests/qmi_test_service_clnt_test_1001:qcom \
-    $(LOCAL_PATH)/bin/qmi-framework-tests/qmi_test_service_clnt_test_2000:system/bin/qmi-framework-tests/qmi_test_service_clnt_test_2000:qcom \
-    $(LOCAL_PATH)/bin/qmi-framework-tests/qmi_test_service_test:system/bin/qmi-framework-tests/qmi_test_service_test:qcom \
     $(LOCAL_PATH)/bin/qmi_motext_hook:system/bin/qmi_motext_hook:qcom \
-    $(LOCAL_PATH)/bin/qmi_simple_ril_test:system/bin/qmi_simple_ril_test:qcom \
     $(LOCAL_PATH)/bin/qmuxd:system/bin/qmuxd:qcom \
     $(LOCAL_PATH)/bin/qseecomd:system/bin/qseecomd:qcom \
     $(LOCAL_PATH)/bin/radish:system/bin/radish:qcom \
-    $(LOCAL_PATH)/bin/rundiag:system/bin/rundiag:qcom \
     $(LOCAL_PATH)/bin/sensors.qcom:system/bin/sensors.qcom:qcom \
-    $(LOCAL_PATH)/bin/test_diag:system/bin/test_diag:qcom \
     $(LOCAL_PATH)/bin/thermal-engine:system/bin/thermal-engine:qcom \
     $(LOCAL_PATH)/bin/time_daemon:system/bin/time_daemon:qcom \
     $(LOCAL_PATH)/bin/usbhub:system/bin/usbhub:qcom \
@@ -155,7 +141,6 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw:qcom \
     $(LOCAL_PATH)/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw:qcom \
     $(LOCAL_PATH)/etc/flp.conf:system/etc/flp.conf:qcom \
-    $(LOCAL_PATH)/etc/qmi_fw.conf:system/etc/qmi_fw.conf:qcom \
     $(LOCAL_PATH)/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf:qcom \
     $(LOCAL_PATH)/etc/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf:qcom \
     $(LOCAL_PATH)/lib/hw/audio.primary.msm8084.so:system/lib/hw/audio.primary.msm8084.so:qcom \
@@ -378,7 +363,6 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so:qcom \
     $(LOCAL_PATH)/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so:qcom \
     $(LOCAL_PATH)/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so:qcom \
-    $(LOCAL_PATH)/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so:qcom \
     $(LOCAL_PATH)/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
     $(LOCAL_PATH)/vendor/lib/libxml.so:system/vendor/lib/libxml.so:qcom \
     $(LOCAL_PATH)/vendor/lib/libQSEEComAPI.so:recovery/root/sbin/libQSEEComAPI.so \
