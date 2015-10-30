@@ -303,6 +303,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
     $(LOCAL_PATH)/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
     $(LOCAL_PATH)/etc/permissions/com.verizon.ims.xml:system/etc/permissions/com.verizon.ims.xml \
+    $(LOCAL_PATH)/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
     $(LOCAL_PATH)/etc/permissions/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml \
     $(LOCAL_PATH)/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
     $(LOCAL_PATH)/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
