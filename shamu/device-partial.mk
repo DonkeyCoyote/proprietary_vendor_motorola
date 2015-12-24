@@ -17,6 +17,10 @@
 LOCAL_PATH := vendor/motorola/shamu/proprietary
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/lib/libimscamera_jni.so:system/app/ims/lib/arm/libimscamera_jni.so \
+    $(LOCAL_PATH)/lib/libimsmedia_jni.so:system/app/ims/lib/arm/libimsmedia_jni.so \
+    $(LOCAL_PATH)/lib/libdmengine.so:system/priv-app/DMService/arm/lib/libdmengine.so \
+    $(LOCAL_PATH)/lib/libdmjavaplugin.so:system/priv-app/DMService/arm/lib/libdmjavaplugin.so \
     $(LOCAL_PATH)/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     $(LOCAL_PATH)/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     $(LOCAL_PATH)/lib/libdmengine.so:system/lib/libdmengine.so \

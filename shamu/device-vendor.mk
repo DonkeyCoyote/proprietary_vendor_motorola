@@ -23,6 +23,7 @@ PRODUCT_PACKAGES += \
     HiddenMenu \
     ims \
     TimeService \
+    Tycho \
     VZWAPNLib
 
 # Prebuilt jars
@@ -43,6 +44,7 @@ PRODUCT_PACKAGES += \
     DCMO \
     DiagMon \
     DMService \
+    GCS \
     LifetimeData \
     MotoSignatureApp \
     SprintDM \
@@ -54,9 +56,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtime_genoff
 
-# Symlinks
-PRODUCT_PACKAGES += \
-    libimsmedia_jni.so \
-    libimscamera_jni.so \
-    libdmengine.so \
-    libdmjavaplugin.so
