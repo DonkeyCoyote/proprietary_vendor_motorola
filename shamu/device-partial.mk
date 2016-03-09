@@ -430,7 +430,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/firmware/aonvr1.bin:system/vendor/firmware/aonvr1.bin \
     $(LOCAL_PATH)/vendor/firmware/aonvr2.bin:system/vendor/firmware/aonvr2.bin \
     $(LOCAL_PATH)/vendor/firmware/bcm20795_firmware.ncd:system/vendor/firmware/bcm20795_firmware.ncd \
-    $(LOCAL_PATH)/vendor/firmware/bcm4354A2.hcd:system/vendor/firmware/bcm4354A2.hcd \
     $(LOCAL_PATH)/vendor/lib/libQSEEComAPI.so:recovery/root/sbin/libQSEEComAPI.so \
     $(LOCAL_PATH)/vendor/firmware/keymaster/keymaster.b00:recovery/root/vendor/firmware/keymaster/keymaster.b00 \
     $(LOCAL_PATH)/vendor/firmware/keymaster/keymaster.b01:recovery/root/vendor/firmware/keymaster/keymaster.b01 \
