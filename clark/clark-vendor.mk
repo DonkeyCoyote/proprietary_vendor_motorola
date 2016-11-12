@@ -52,7 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/clark/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/motorola/clark/proprietary/bin/test_diag:system/bin/test_diag \
-    vendor/motorola/clark/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/clark/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/motorola/clark/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/motorola/clark/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
@@ -301,7 +300,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
@@ -517,7 +515,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/motorola/clark/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/motorola/clark/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/motorola/clark/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/motorola/clark/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/motorola/clark/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
