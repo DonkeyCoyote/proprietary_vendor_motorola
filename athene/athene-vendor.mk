@@ -254,6 +254,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
     vendor/motorola/athene/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/motorola/athene/proprietary/lib/libtpa.so:system/lib/libtpa.so \
+    vendor/motorola/athene/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/motorola/athene/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/motorola/athene/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
     vendor/motorola/athene/proprietary/lib/libwifi-hal-qcom.so:system/lib/libwifi-hal-qcom.so \
