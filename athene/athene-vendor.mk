@@ -1042,6 +1042,7 @@ PRODUCT_PACKAGES += \
     libril \
     libtime_genoff \
     TimeService \
+    CNEService \
     qcrilmsgtunnel \
     ims \
     colorservice \
