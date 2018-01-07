@@ -1037,6 +1037,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    libril \
     libtime_genoff \
     TimeService \
     CNEService \
