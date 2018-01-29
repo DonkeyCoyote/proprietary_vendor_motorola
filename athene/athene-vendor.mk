@@ -1014,8 +1014,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
     vendor/motorola/athene/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/motorola/athene/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/motorola/athene/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/athene/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/motorola/athene/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
