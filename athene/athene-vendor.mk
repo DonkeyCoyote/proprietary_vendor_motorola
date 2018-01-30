@@ -260,6 +260,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/motorola/athene/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
     vendor/motorola/athene/proprietary/lib/libwifi-hal-qcom.so:system/lib/libwifi-hal-qcom.so \
+    vendor/motorola/athene/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/motorola/athene/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/motorola/athene/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
     vendor/motorola/athene/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
     vendor/motorola/athene/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
     vendor/motorola/athene/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
