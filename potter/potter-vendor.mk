@@ -780,9 +780,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libSampleExtAuthJNI.so:system/vendor/lib/libSampleExtAuthJNI.so \
     vendor/motorola/potter/proprietary/vendor/lib/libsdsprpc.so:system/vendor/lib/libsdsprpc.so \
     vendor/motorola/potter/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libSonyDefocus.so:system/vendor/lib/libSonyDefocus.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libSonyDualPDLibrary.so:system/vendor/lib/libSonyDualPDLibrary.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libSonyDualPDParam.so:system/vendor/lib/libSonyDualPDParam.so \
     vendor/motorola/potter/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/motorola/potter/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
