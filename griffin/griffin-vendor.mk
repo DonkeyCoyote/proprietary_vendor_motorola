@@ -1070,7 +1070,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     MotCameraMod \
     QtiTelephonyService \
-    ims \
     CNEService \
     HotwordEnrollmentOKGoogleCS47L35 \
     HotwordEnrollmentTGoogleCS47L35 \
@@ -1080,6 +1079,7 @@ PRODUCT_PACKAGES += \
     ProjectorApp \
     atfwd \
     com.qualcomm.location \
+    ims \
     qcrilmsgtunnel \
     TimeService \
     qcrilhook \
