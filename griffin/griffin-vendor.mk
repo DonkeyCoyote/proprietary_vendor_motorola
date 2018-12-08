@@ -1054,6 +1054,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/com.motorola.mod@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.motorola.mod@1.0_vendor.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/motorola.hardware.mods_camera.provider@2.4_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.mods_camera.provider@2.4_vendor.so \
     vendor/motorola/griffin/proprietary/vendor/lib/motorola.hardware.mods_camera.provider@2.4_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.mods_camera.provider@2.4_vendor.so
+    vendor/motorola/griffin/proprietary/vendor/etc/init/motorola.hardware.health@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.health@1.0-service.rc \
+    vendor/motorola/griffin/proprietary/vendor/bin/hw/motorola.hardware.health@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.health@1.0-service \
+    vendor/motorola/griffin/proprietary/vendor/lib64/motorola.hardware.health@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.health@1.0.so
 
 PRODUCT_PACKAGES += \
     com.quicinc.cne.api@1.0 \
