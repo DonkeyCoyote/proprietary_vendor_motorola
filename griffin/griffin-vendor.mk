@@ -1080,15 +1080,12 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     ims \
     CNEService \
-    ConnMO \
-    DMService \
     HotwordEnrollmentOKGoogleCS47L35 \
     HotwordEnrollmentTGoogleCS47L35 \
     HotwordEnrollmentXGoogleCS47L35 \
     ModFmwkProxyService \
     ModService \
     ProjectorApp \
-    SprintDM \
     atfwd \
     com.qualcomm.location \
     qcrilmsgtunnel \
