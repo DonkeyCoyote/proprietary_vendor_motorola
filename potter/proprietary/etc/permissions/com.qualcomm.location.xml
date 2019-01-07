@@ -10,11 +10,12 @@
 
 <permissions>
 
+<library name="com.android.services" file="/system/framework/services.jar"/>
+
 <permission name="com.qualcomm.permission.IZAT" >
     <group gid="gps" />
     <group gid="system" />
     <group gid="diag" />
-    <group gid="oem_2950" />
     <group gid="sdcard_rw" />
     <group gid="media_rw" />
     <group gid="wifi" />
