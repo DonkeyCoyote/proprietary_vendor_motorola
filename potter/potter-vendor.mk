@@ -541,6 +541,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libactuator_mot_ak7371.so:system/vendor/lib/libactuator_mot_ak7371.so \
     vendor/motorola/potter/proprietary/vendor/lib/libactuator_pseudo.so:system/vendor/lib/libactuator_pseudo.so \
     vendor/motorola/potter/proprietary/vendor/lib/libchromatix_ar1335_common.so:system/vendor/lib/libchromatix_ar1335_common.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libSonyDefocus.so:system/vendor/lib/libSonyDefocus.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libSonyDualPDLibrary.so:system/vendor/lib/libSonyDualPDLibrary.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libSonyDualPDParam.so:system/vendor/lib/libSonyDualPDParam.so \
     vendor/motorola/potter/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/motorola/potter/proprietary/lib/libmotefem_svc.so:system/lib/libmotefem_svc.so \
     vendor/motorola/potter/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
