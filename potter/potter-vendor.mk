@@ -416,6 +416,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libmotocalibration.so:system/vendor/lib/libmotocalibration.so \
     vendor/motorola/potter/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/motorola/potter/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/liboemcrypto.so:system/vendor/lib64/liboemcrypto.so \
     vendor/motorola/potter/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/motorola/potter/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/motorola/potter/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
@@ -1249,7 +1250,19 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/lib-imsrcs-v2.so:/system/vendor/lib64/lib-imsrcs-v2.so \
     vendor/motorola/potter/proprietary/vendor/lib64/lib-imsrcsbaseimpl.so:/system/vendor/lib64/lib-imsrcsbaseimpl.so \
     vendor/motorola/potter/proprietary/vendor/lib64/lib-siputility.so:/system/vendor/lib64/lib-siputility.so \
-    vendor/motorola/potter/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:/system/vendor/etc/init/android.hardware.sensors@1.0-service.rc
+    vendor/motorola/potter/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:/system/vendor/etc/init/android.hardware.sensors@1.0-service.rc \
+    vendor/motorola/potter/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.clearkey:/system/vendor/bin/hw/android.hardware.drm@1.1-service.clearkey \
+    vendor/motorola/potter/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc:/system/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc \
+    vendor/motorola/potter/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:/system/vendor/bin/hw/android.hardware.drm@1.1-service.widevine \
+    vendor/motorola/potter/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:/system/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc \
+    vendor/motorola/potter/proprietary/vendor/lib/libcpion.so:/system/vendor/lib/libcpion.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libcpion.so:/system/vendor/lib64/libcpion.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libhdcpsrm.so:/system/vendor/lib/libhdcpsrm.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libhdcpsrm.so:/system/vendor/lib64/libhdcpsrm.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libwvhidl.so:/system/vendor/lib64/libwvhidl.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.2.so:/system/vendor/lib64/vendor.display.config@1.2.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.3.so:/system/vendor/lib64/vendor.display.config@1.3.so
 
 # WFD
 PRODUCT_COPY_FILES += \
