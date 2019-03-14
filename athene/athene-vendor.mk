@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/motorola/athene/proprietary/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/motorola/athene/proprietary/bin/loc_launcher:system/vendor/bin/loc_launcher \
-    vendor/motorola/athene/proprietary/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/motorola/athene/proprietary/bin/motobox:system/vendor/bin/motobox \
     vendor/motorola/athene/proprietary/bin/motosh:system/vendor/bin/motosh \
     vendor/motorola/athene/proprietary/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
@@ -185,16 +184,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/framework/com.motorola.camerabgproc.jar:system/framework/com.motorola.camerabgproc.jar \
     vendor/motorola/athene/proprietary/framework/com.motorola.frameworks.core.addon.jar:system/framework/com.motorola.frameworks.core.addon.jar \
     vendor/motorola/athene/proprietary/framework/com.motorola.imager.athene.jar:system/framework/com.motorola.imager.athene.jar \
-    vendor/motorola/athene/proprietary/lib/hw/camera.vendor.msm8952.so:system/lib/hw/camera.msm8952.so \
     vendor/motorola/athene/proprietary/lib/hw/fingerprint.msm8952.so:system/vendor/lib/hw/fingerprint.vendor.msm8952.so \
     vendor/motorola/athene/proprietary/lib/hw/sensorhub.msm8952.so:system/lib/hw/sensorhub.msm8952.so \
     vendor/motorola/athene/proprietary/lib/hw/sensors.msm8952.so:system/lib/hw/sensors.msm8952.so \
     vendor/motorola/athene/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
-    vendor/motorola/athene/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/athene/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
     vendor/motorola/athene/proprietary/lib/libbt-aptX-ARM-4.2.2.so:system/lib/libbt-aptX-ARM-4.2.2.so \
-    vendor/motorola/athene/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
-    vendor/motorola/athene/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/motorola/athene/proprietary/lib/libcce-socketjni.so:system/lib/libcce-socketjni.so \
     vendor/motorola/athene/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/motorola/athene/proprietary/lib/libcryptfs_hw.so:system/lib/libcryptfs_hw.so \
@@ -205,30 +200,19 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/libdtvtuner.so:system/lib/libdtvtuner.so \
     vendor/motorola/athene/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/athene/proprietary/lib/libipanat.so:system/lib/libipanat.so \
-    vendor/motorola/athene/proprietary/lib/libjscore.so:system/lib/libjscore.so \
-    vendor/motorola/athene/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
     vendor/motorola/athene/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/motorola/athene/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/motorola/athene/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/motorola/athene/proprietary/vendor/lib/libsui.so:system/vendor/lib/libsui.so \
     vendor/motorola/athene/proprietary/vendor/lib/libsu.so:system/vendor/lib/libsu.so \
-    vendor/motorola/athene/proprietary/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/athene/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/athene/proprietary/lib/libminui.so:system/lib/libminui.so \
-    vendor/motorola/athene/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/motorola/athene/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/motorola/athene/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/motorola/athene/proprietary/lib/libmodalityservice_jni.so:system/lib/libmodalityservice_jni.so \
-    vendor/motorola/athene/proprietary/lib/libmorpho_image_stabilizer4.so:system/lib/libmorpho_image_stabilizer4.so \
     vendor/motorola/athene/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/motorola/athene/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/athene/proprietary/lib/libmotimager_utils.so:system/lib/libmotimager_utils.so \
-    vendor/motorola/athene/proprietary/lib/libmot_lux_standardization.so:system/lib/libmot_lux_standardization.so \
     vendor/motorola/athene/proprietary/lib/libmotocare.so:system/lib/libmotocare.so \
     vendor/motorola/athene/proprietary/lib/libmoto_netutil.so:system/lib/libmoto_netutil.so \
-    vendor/motorola/athene/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
-    vendor/motorola/athene/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
-    vendor/motorola/athene/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
     vendor/motorola/athene/proprietary/lib/libnetfilter_conntrack.so:system/lib/libnetfilter_conntrack.so \
     vendor/motorola/athene/proprietary/lib/libnfnetlink.so:system/lib/libnfnetlink.so \
     vendor/motorola/athene/proprietary/lib/libOmxSwVencHevc.so:system/lib/libOmxSwVencHevc.so \
@@ -238,7 +222,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/libprovlib.so:system/lib/libprovlib.so \
     vendor/motorola/athene/proprietary/lib/libqcomfm_jni.so:system/lib/libqcomfm_jni.so \
     vendor/motorola/athene/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
-    vendor/motorola/athene/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/athene/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/motorola/athene/proprietary/lib/librilqmiservices.so:system/lib/librilqmiservices.so \
     vendor/motorola/athene/proprietary/lib/libsensorhubservice_jni.so:system/lib/libsensorhubservice_jni.so \
@@ -308,7 +291,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
     vendor/motorola/athene/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
     vendor/motorola/athene/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libcamerabgproc-jni.so:system/vendor/lib/libcamerabgproc-jni.so \
     vendor/motorola/athene/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/motorola/athene/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/motorola/athene/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
@@ -717,15 +699,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/motorola/athene/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/motorola/athene/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/motorola/athene/proprietary/vendor/lib/libFidoCryptoJNI.so:system/vendor/lib/libFidoCryptoJNI.so \
     vendor/motorola/athene/proprietary/vendor/lib/libFidoCrypto.so:system/vendor/lib/libFidoCrypto.so \
     vendor/motorola/athene/proprietary/vendor/lib/libFidoCryptov1.so:system/vendor/lib/libFidoCryptov1.so \
     vendor/motorola/athene/proprietary/vendor/lib/libFIDOKeyProvisioning.so:system/vendor/lib/libFIDOKeyProvisioning.so \
     vendor/motorola/athene/proprietary/vendor/lib/libFidoSuiJNI.so:system/vendor/lib/libFidoSuiJNI.so \
     vendor/motorola/athene/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/motorola/athene/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/motorola/athene/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
     vendor/motorola/athene/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
@@ -738,9 +717,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/motorola/athene/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/motorola/athene/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/motorola/athene/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/motorola/athene/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/motorola/athene/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
@@ -751,128 +727,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/motorola/athene/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/motorola/athene/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_dcrf.so:system/vendor/lib/libmmcamera2_dcrf.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_sensor_debug.so:system/vendor/lib/libmmcamera2_sensor_debug.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_csidtg.so:system/vendor/lib/libmmcamera_csidtg.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:system/vendor/lib/libmmcamera_dcrf_lib.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_dw9761b_eeprom.so:system/vendor/lib/libmmcamera_dw9761b_eeprom.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_imx132.so:system/vendor/lib/libmmcamera_imx132.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_imx230.so:system/vendor/lib/libmmcamera_imx230.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so:system/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_abcc44.so:system/vendor/lib/libmmcamera_isp_abcc44.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:system/vendor/lib/libmmcamera_isp_bf_stats47.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_bg_stats44.so:system/vendor/lib/libmmcamera_isp_bg_stats44.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_bhist_stats44.so:system/vendor/lib/libmmcamera_isp_bhist_stats44.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_bpc40.so:system/vendor/lib/libmmcamera_isp_bpc40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:system/vendor/lib/libmmcamera_isp_chroma_enhan40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_chroma_suppress40.so:system/vendor/lib/libmmcamera_isp_chroma_suppress40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:system/vendor/lib/libmmcamera_isp_clamp_encoder40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_clamp_video40.so:system/vendor/lib/libmmcamera_isp_clamp_video40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so:system/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_color_correct40.so:system/vendor/lib/libmmcamera_isp_color_correct40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_color_xform_encoder40.so:system/vendor/lib/libmmcamera_isp_color_xform_encoder40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so:system/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_cs_stats44.so:system/vendor/lib/libmmcamera_isp_cs_stats44.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_demosaic40.so:system/vendor/lib/libmmcamera_isp_demosaic40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_demux40.so:system/vendor/lib/libmmcamera_isp_demux40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so:system/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so:system/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_gamma40.so:system/vendor/lib/libmmcamera_isp_gamma40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_ihist_stats44.so:system/vendor/lib/libmmcamera_isp_ihist_stats44.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:system/vendor/lib/libmmcamera_isp_linearization40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:system/vendor/lib/libmmcamera_isp_ltm44.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_luma_adaptation40.so:system/vendor/lib/libmmcamera_isp_luma_adaptation40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_mce40.so:system/vendor/lib/libmmcamera_isp_mce40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff40.so:system/vendor/lib/libmmcamera_isp_mesh_rolloff40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_rs_stats44.so:system/vendor/lib/libmmcamera_isp_rs_stats44.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder44.so:system/vendor/lib/libmmcamera_isp_scaler_encoder44.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so:system/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_sce40.so:system/vendor/lib/libmmcamera_isp_sce40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_le2464c_eeprom.so:system/vendor/lib/libmmcamera_le2464c_eeprom.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_le2464c_master_eeprom.so:system/vendor/lib/libmmcamera_le2464c_master_eeprom.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_mot_imx214_eeprom.so:system/vendor/lib/libmmcamera_mot_imx214_eeprom.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_mt9m114.so:system/vendor/lib/libmmcamera_mt9m114.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_omnivision_ov16860_eeprom.so:system/vendor/lib/libmmcamera_omnivision_ov16860_eeprom.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_omnivision_ov5693_eeprom.so:system/vendor/lib/libmmcamera_omnivision_ov5693_eeprom.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov13850_polaris.so:system/vendor/lib/libmmcamera_ov13850_polaris.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov13850_q13v06k.so:system/vendor/lib/libmmcamera_ov13850_q13v06k.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov13850.so:system/vendor/lib/libmmcamera_ov13850.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov16860_pdaf.so:system/vendor/lib/libmmcamera_ov16860_pdaf.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov16860.so:system/vendor/lib/libmmcamera_ov16860.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov2685_scv3b4035.so:system/vendor/lib/libmmcamera_ov2685_scv3b4035.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov2685.so:system/vendor/lib/libmmcamera_ov2685.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov4688.so:system/vendor/lib/libmmcamera_ov4688.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov5670_polaris.so:system/vendor/lib/libmmcamera_ov5670_polaris.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov5670.so:system/vendor/lib/libmmcamera_ov5670.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov5693.so:system/vendor/lib/libmmcamera_ov5693.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ovpdaf.so:system/vendor/lib/libmmcamera_ovpdaf.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_s5k3m2xx.so:system/vendor/lib/libmmcamera_s5k3m2xx.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:system/vendor/lib/libmmcamera_sunny_8865_eeprom.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:system/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:system/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_truly_cma481_eeprom.so:system/vendor/lib/libmmcamera_truly_cma481_eeprom.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_vstab_module.so:system/vendor/lib/libmmcamera_vstab_module.so \
     vendor/motorola/athene/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
     vendor/motorola/athene/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
     vendor/motorola/athene/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
     vendor/motorola/athene/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
     vendor/motorola/athene/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/motorola/athene/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/motorola/athene/proprietary/vendor/lib/libmodalityservice_jni.so:system/vendor/lib/libmodalityservice_jni.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmotocalibration.so:system/vendor/lib/libmotocalibration.so \
     vendor/motorola/athene/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/motorola/athene/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/motorola/athene/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/motorola/athene/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/motorola/athene/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
     vendor/motorola/athene/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
@@ -897,6 +761,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/motorola/athene/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/motorola/athene/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/motorola/athene/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/motorola/athene/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/motorola/athene/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
@@ -928,7 +793,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libSecureSampleAuthClient.so:system/vendor/lib/libSecureSampleAuthClient.so \
     vendor/motorola/athene/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/motorola/athene/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/motorola/athene/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/motorola/athene/proprietary/vendor/lib/libsensorhubservice_jni.so:system/vendor/lib/libsensorhubservice_jni.so \
     vendor/motorola/athene/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
@@ -948,7 +812,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/motorola/athene/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/motorola/athene/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/motorola/athene/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/motorola/athene/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/motorola/athene/proprietary/lib/libuiblur.so:system/lib/libuiblur.so \
@@ -977,6 +840,140 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/motorola/athene/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/motorola/athene/proprietary/vendor/qcril.db:system/vendor/qcril.db
+
+# Camera
+PRODUCT_COPY_FILES += \
+    vendor/motorola/athene/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
+    vendor/motorola/athene/proprietary/vendor/lib/hw/camera.msm8952.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8952.so \
+    vendor/motorola/athene/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
+    vendor/motorola/athene/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
+    vendor/motorola/athene/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
+    vendor/motorola/athene/proprietary/lib/libjscore.so:system/lib/libjscore.so \
+    vendor/motorola/athene/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
+    vendor/motorola/athene/proprietary/lib/libbson.so:system/lib/libbson.so \
+    vendor/motorola/athene/proprietary/lib/libmbs.so:system/lib/libmbs.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libcamerabgproc-jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerabgproc-jni.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvadsp_stub.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmotocalibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotocalibration.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
+    vendor/motorola/athene/proprietary/lib/libmorpho_image_stabilizer4.so:system/lib/libmorpho_image_stabilizer4.so \
+    vendor/motorola/athene/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
+    vendor/motorola/athene/proprietary/lib/libmotimager_utils.so:system/lib/libmotimager_utils.so \
+    vendor/motorola/athene/proprietary/lib/libmot_lux_standardization.so:system/lib/libmot_lux_standardization.so \
+    vendor/motorola/athene/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
+    vendor/motorola/athene/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
+    vendor/motorola/athene/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_dcrf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_dcrf.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_iface_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_iface_modules.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_imglib_modules.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_isp_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_isp_modules.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_is.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_mct.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pp_buf_mgr.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pproc_modules.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_q3a_core.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_sensor_debug.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_sensor_debug.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_sensor_modules.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_algorithm.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_vpe_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_vpe_module.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera2_wnr_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_wnr_module.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_csidtg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_csidtg.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dcrf_lib.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_eeprom_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_util.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_eztune_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eztune_module.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_imx214.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx214.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_abcc44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abcc44.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_abf40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bcc40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_be_stats44.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bf_stats47.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_bg_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bg_stats44.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_bhist_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bhist_stats44.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_bpc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bpc40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_chroma_enhan40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_chroma_suppress40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_chroma_suppress40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_encoder40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_clamp_video40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_video40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_viewfinder40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_color_correct40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_correct40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_color_xform_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_xform_encoder40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_xform_viewfinder40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_cs_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_cs_stats44.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_demosaic40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_demosaic40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_demux40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_demux40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_fovcrop_encoder40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_fovcrop_viewfinder40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_gamma40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_gamma40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_ihist_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_ihist_stats44.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_linearization40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_ltm44.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_luma_adaptation40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_luma_adaptation40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_mce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_mce40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_mesh_rolloff40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_rs_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_rs_stats44.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_scaler_encoder44.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_scaler_viewfinder44.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_sce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sce40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_wb40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_wb40.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_mot_imx214_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx214_eeprom.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_omnivision_ov16860_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_omnivision_ov16860_eeprom.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_omnivision_ov5693_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_omnivision_ov5693_eeprom.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov16860_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov16860_pdaf.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov16860.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov16860.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ov5693.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5693.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ovpdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ovpdaf.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ubifocus_lib.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_vpu_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_vpu_module.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_vstab_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_vstab_module.so \
+    vendor/motorola/athene/proprietary/lib/motorola.hardware.camera.device@1.0.so:system/lib/motorola.hardware.camera.device@1.0.so \
+    vendor/motorola/athene/proprietary/lib/motorola.hardware.camera.provider@2.4.so:system/lib/motorola.hardware.camera.provider@2.4.so \
+    vendor/motorola/athene/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.provider@2.4-service \
+    vendor/motorola/athene/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
+    vendor/motorola/athene/proprietary/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/motorola.hardware.camera.provider@2.4-impl.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libchromatix_csidtg_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_zsl_preview.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_cac3_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac3_lib.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_isp_template.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_template.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
+    vendor/motorola/athene/proprietary/vendor/lib/motcamera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/motcamera.device@1.0-impl.so \
+    vendor/motorola/athene/proprietary/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.device@1.0_vendor.so \
+    vendor/motorola/athene/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.provider@2.4_vendor.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libllvd_smore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_smore.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libllvd_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_sw_tnr.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so
 
 # Display/Graphics
 PRODUCT_COPY_FILES += \
@@ -1012,7 +1009,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/motorola/athene/proprietary/vendor/lib/libmm-dspp-utils.so:system/vendor/lib/libmm-dspp-utils.so \
     vendor/motorola/athene/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
     vendor/motorola/athene/proprietary/vendor/lib/libmm-qdcm-diag.so:system/vendor/lib/libmm-qdcm-diag.so \
     vendor/motorola/athene/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/motorola/athene/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
