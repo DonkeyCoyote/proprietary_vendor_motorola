@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/motorola/athene/proprietary/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
-    vendor/motorola/athene/proprietary/bin/audiod:system/vendor/bin/audiod \
     vendor/motorola/athene/proprietary/bin/batt_health:system/vendor/bin/batt_health \
     vendor/motorola/athene/proprietary/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/motorola/athene/proprietary/bin/charge_only_mode:system/vendor/bin/charge_only_mode \
