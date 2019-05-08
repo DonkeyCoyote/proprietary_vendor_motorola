@@ -20,6 +20,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/etc/permissions/com.motorola.moto.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.moto.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/permissions/com.motorola.motodisplay.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motodisplay.xml \
     vendor/motorola/griffin/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/motorola/griffin/proprietary/etc/permissions/com.motorola.mod_config.xml:system/etc/permissions/com.motorola.mod_config.xml \
+    vendor/motorola/griffin/proprietary/etc/permissions/com.motorola.mod_v2.xml:system/etc/permissions/com.motorola.mod_v2.xml \
+    vendor/motorola/griffin/proprietary/etc/permissions/com.motorola.modservice.bgintents.xml:system/etc/permissions/com.motorola.modservice.bgintents.xml \
+    vendor/motorola/griffin/proprietary/etc/permissions/com.motorola.5gmod.xml:system/etc/permissions/com.motorola.5gmod.xml \
+    vendor/motorola/griffin/proprietary/etc/permissions/privapp-permissions-com.motorola.vzw.mot5gmod.xml:system/etc/permissions/privapp-permissions-com.motorola.vzw.mot5gmod.xml \
+    vendor/motorola/griffin/proprietary/etc/permissions/com.motorola.mot5gmod.bgintents.xml:system/etc/permissions/com.motorola.mot5gmod.bgintents.xml \
+    vendor/motorola/griffin/proprietary/etc/permissions/privapp-permissions-com.motorola.modservice.fmwkwrapper.xml:system/etc/permissions/privapp-permissions-com.motorola.modservice.fmwkwrapper.xml \
+    vendor/motorola/griffin/proprietary/etc/permissions/privapp-permissions-com.motorola.mot5gmod.xml:system/etc/permissions/privapp-permissions-com.motorola.mot5gmod.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/telephonyservice.xml \
@@ -657,6 +665,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/lib/motorola.hardware.camera.device@1.0.so:system/lib/motorola.hardware.camera.device@1.0.so \
     vendor/motorola/griffin/proprietary/lib/motorola.hardware.camera.provider@2.4.so:system/lib/motorola.hardware.camera.provider@2.4.so \
     vendor/motorola/griffin/proprietary/lib/motorola.hardware.mods_camera.provider@2.4.so:system/lib/motorola.hardware.mods_camera.provider@2.4.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/motorola.hardware.mods_camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.mods_camera.provider@2.4.so \
     vendor/motorola/griffin/proprietary/lib64/com.motorola.mod@1.0.so:system/lib64/com.motorola.mod@1.0.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/hw/vr.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vr.msm8996.so \
     vendor/motorola/griffin/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
@@ -668,6 +677,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/lib64/motorola.hardware.camera.device@1.0.so:system/lib64/motorola.hardware.camera.device@1.0.so \
     vendor/motorola/griffin/proprietary/lib64/motorola.hardware.camera.provider@2.4.so:system/lib64/motorola.hardware.camera.provider@2.4.so \
     vendor/motorola/griffin/proprietary/lib64/motorola.hardware.mods_camera.provider@2.4.so:system/lib64/motorola.hardware.mods_camera.provider@2.4.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/motorola.hardware.mods_camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.mods_camera.provider@2.4.so \
     vendor/motorola/griffin/proprietary/vendor/bin/charge_only_mode:$(TARGET_COPY_OUT_VENDOR)/bin/charge_only_mode \
     vendor/motorola/griffin/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/griffin/proprietary/vendor/bin/hw/motorola.hardware.mods_camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.mods_camera.provider@2.4-service \
@@ -974,7 +984,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/libmotaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotaudioutils.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libunshorten.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunshorten.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyalsa.so \
-    vendor/motorola/griffin/proprietary/vendor/lib/hw/audio.primary.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8996.so
+    vendor/motorola/griffin/proprietary/vendor/lib/hw/audio.primary.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8996.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/com.motorola.mod@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.motorola.mod@1.0_vendor.so \
+    vendor/motorola/griffin/proprietary/vendor/lib64/com.motorola.mod@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.motorola.mod@1.0_vendor.so \
+    vendor/motorola/griffin/proprietary/vendor/bin/hw/motorola.hardware.health@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.health@1.0-service \
+    vendor/motorola/griffin/proprietary/vendor/etc/init/motorola.hardware.health@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.health@1.0-service.rc \
+    vendor/motorola/griffin/proprietary/vendor/lib64/motorola.hardware.health@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.health@1.0.so \
+    
 
 PRODUCT_PACKAGES += \
     libgpustats \
@@ -992,4 +1008,6 @@ PRODUCT_PACKAGES += \
     MotCameraMod \
     ModFmwkProxyService \
     ModService \
-    ProjectorApp
+    ProjectorApp \
+    5GModApp \
+    vzw5gModActivation
