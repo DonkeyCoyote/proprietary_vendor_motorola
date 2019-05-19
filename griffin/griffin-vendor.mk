@@ -990,7 +990,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/bin/hw/motorola.hardware.health@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.health@1.0-service \
     vendor/motorola/griffin/proprietary/vendor/etc/init/motorola.hardware.health@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.health@1.0-service.rc \
     vendor/motorola/griffin/proprietary/vendor/lib64/motorola.hardware.health@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.health@1.0.so \
-    
+    vendor/motorola/griffin/proprietary/vendor/lib64/libvibratorhw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvibratorhw.so
 
 PRODUCT_PACKAGES += \
     libgpustats \
