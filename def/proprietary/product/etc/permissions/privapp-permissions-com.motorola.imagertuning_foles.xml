@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+   <privapp-permissions package="com.motorola.imagertuning_foles">
+       <permission name="com.motorola.permission.ACCESS_MOT_IMAGER"/>
+   </privapp-permissions>
+</permissions>

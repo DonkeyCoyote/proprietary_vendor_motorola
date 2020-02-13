@@ -1,0 +1,45 @@
+// @file mot_drop.proto
+//
+// Defines standard message types for the Mot_Drop
+//
+// Copyright (c) 2019 Motorola Mobility
+// All Rights Reserved.
+// Confidential and Proprietary - Motorola Mobility
+
+syntax = "proto2";
+import "nanopb.proto";
+import "sns_std.proto";
+import "sns_std_sensor.proto";
+
+// Mot_Drop Sensor Attribute Requirements:
+// SNS_STD_SENSOR_ATTRID_TYPE: "mot_drop"
+// SNS_STD_SENSOR_ATTRID_STREAM_TYPE: SNS_STD_SENSOR_STREAM_TYPE_SINGLE_OUTPUT
+
+// Sensor output event:
+// Mot_Drop use mot_drop_event for it's output event
+
+enum mot_drop_msgid
+{
+  option (nanopb_enumopt).long_names = false;
+
+  // From Algo, name is string matched to "mot_drop_event" msg below
+  MOT_DROP_MSGID_MOT_DROP_EVENT = 1056;
+}
+
+enum mot_drop_event_type
+{
+  option (nanopb_enumopt).long_names = false;
+
+  MOT_DROP_EVENT_TYPE_UNKNOWN             = 0;
+  MOT_DROP_EVENT_TYPE_DROP_SUSPECT        = 1;
+  MOT_DROP_EVENT_TYPE_DROP_DETECTED       = 2;
+}
+
+message mot_drop_event
+{
+  // motion state
+  required mot_drop_event_type state = 1 [default = MOT_DROP_EVENT_TYPE_UNKNOWN];
+  required float acc_var = 2;
+  required float acc_ave = 3;
+  required float cur_acc = 4;
+}

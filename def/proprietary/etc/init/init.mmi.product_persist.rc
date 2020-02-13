@@ -1,0 +1,16 @@
+on post-fs
+    chown root system /mnt/product/persist
+    chmod 0771 /mnt/product/persist
+    mkdir /mnt/product/persist/user 0770 radio vendor_prod_persist
+    # This dir is used to store any OMA(both DM and CP) files in persist partition
+    mkdir /mnt/product/persist/user/dm 0770 radio vendor_prod_persist
+    mkdir /mnt/product/persist/lifetime 0770 radio vendor_prod_persist
+    # Setup folder for Pre-Activation Kill Switch app (PAKS) for P NPI.
+    # This dir is used to store the prelock state files in product persist partition.
+    mkdir /mnt/product/persist/prelock 0770 vendor_prod_persist vendor_prod_persist
+
+    # make elabel and factory directory under /mnt/product/persist
+    mkdir /mnt/product/persist/elabel 0770 system vendor_prod_persist
+    mkdir /mnt/product/persist/factory 0775 system vendor_prod_persist
+    chmod 0774 /mnt/product/persist/factory/cqatest_pat_mode_order
+    restorecon_recursive /mnt/product/persist

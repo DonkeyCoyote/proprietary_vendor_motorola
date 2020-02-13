@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.motorola.omadm.service">
+
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
+        <permission name="com.motorola.permission.ACCESS_OMA_DATA"/>
+        <permission name="com.motorola.permission.ACCESS_PRODUCT_PERSIST"/>
+    </privapp-permissions>
+</permissions>

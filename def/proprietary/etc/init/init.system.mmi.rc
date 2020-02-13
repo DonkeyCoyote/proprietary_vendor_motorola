@@ -1,0 +1,30 @@
+service setup_shutdown /system/bin/setup_shutdown.sh
+    class late_start
+    user system
+    oneshot
+
+service move_elabel_data /system/bin/move_elabel_data.sh
+    class late_start
+    user system
+    group system
+    oneshot
+
+on early-boot
+    write /proc/sys/kernel/poweroff_cmd "/system/bin/reboot -p"
+    write /proc/sys/kernel/core_pattern "/data/app_dump/%e_%p_%t.core.gz"
+
+on post-fs-data
+
+    # OTA Package directory
+    mkdir /data/misc_ne 0770 system cache
+    # Give system permission to dhcp
+    mkdir /data/misc/dhcp 0750 dhcp system
+
+    # directory to place factory regulatory data
+    mkdir /data/misc/elabel 0755 system system
+
+on init && property:ro.boot.revision=*
+    setprop ro.boot.hardware.revision ${ro.boot.revision}
+
+on property:ro.carrier=*
+    setprop ro.oem.key1 ${ro.carrier}

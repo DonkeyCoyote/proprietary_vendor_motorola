@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.st.android.nfc_extensions"
+             file="/product/framework/com.st.android.nfc_extensions.jar"/>
+</permissions>
