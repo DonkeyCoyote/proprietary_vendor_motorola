@@ -23,6 +23,9 @@ on post-fs-data
     # directory to place factory regulatory data
     mkdir /data/misc/elabel 0755 system system
 
+on post-fs-data && property:ro.mot.base_buildid=*
+    setprop ro.build.version.base_os "${ro.product.brand}/${ro.product.name}/${ro.product.device}:${ro.build.version.release}/${ro.mot.base_buildid}:${ro.build.type}/${ro.build.tags}"
+
 on init && property:ro.boot.revision=*
     setprop ro.boot.hardware.revision ${ro.boot.revision}
 
