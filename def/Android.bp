@@ -19,6 +19,18 @@
 soong_namespace {
 }
 
+dex_import {
+	name: "UxPerformance",
+	owner: "motorola",
+	jars: ["proprietary/framework/UxPerformance.jar"],
+}
+
+dex_import {
+	name: "QPerformance",
+	owner: "motorola",
+	jars: ["proprietary/framework/QPerformance.jar"],
+}
+
 android_app_import {
 	name: "MotoDolbyV3",
 	owner: "motorola",

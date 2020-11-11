@@ -680,4 +680,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.callinfo-V1.0-java \
     vendor.qti.ims.rcsconfig-V1.0-java \
     vendor.qti.latency-V2.0-java \
-    vendor.qti.voiceprint-V1.0-java
+    vendor.qti.voiceprint-V1.0-java \
+    UxPerformance \
+    QPerformance
