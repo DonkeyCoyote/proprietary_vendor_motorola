@@ -477,7 +477,7 @@ dex_import {
 	name: "qti-telephony-common",
 	owner: "motorola",
 	jars: ["proprietary/product/framework/qti-telephony-common.jar"],
-	product_specific: true,
+	system_ext_specific: true,
 }
 
 dex_import {
