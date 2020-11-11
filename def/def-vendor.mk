@@ -354,9 +354,6 @@ PRODUCT_PACKAGES += \
     qcom-moto-telephony-ext \
     vendor.egistec.hardware.fingerprint-V2.0-java
 PRODUCT_COPY_FILES += \
-    vendor/motorola/def/proprietary/product/bin/dpmd:$(TARGET_COPY_OUT_PRODUCT)/bin/dpmd \
-    vendor/motorola/def/proprietary/product/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/dpm/dpm.conf \
-    vendor/motorola/def/proprietary/product/etc/init/dpmd.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/dpmd.rc \
     vendor/motorola/def/proprietary/product/etc/ixitdata.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/ixitdata.xml \
     vendor/motorola/def/proprietary/product/etc/nfcee_access.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/nfcee_access.xml \
     vendor/motorola/def/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
