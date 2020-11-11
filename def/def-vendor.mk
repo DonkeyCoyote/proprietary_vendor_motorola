@@ -347,7 +347,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleCS47L35 \
     HotwordEnrollmentTGoogleCS47L35 \
     HotwordEnrollmentXGoogleCS47L35 \
-    com.qualcomm.location \
     com.motorola.androidx.camera.extensions \
     com.motorola.frameworks.core.addon \
     com.motorola.motosignature \
