@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<permissions>
-    <privapp-permissions package="com.motorola.vzw.mot5gmod">
-        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
-        <permission name="com.motorola.mod.permission.MOD_INTERNAL" />
-    </privapp-permissions>
-</permissions>

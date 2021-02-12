@@ -1,0 +1,116 @@
+<voicemail>
+  <voicemail numeric='74801' vmnumber='*66' carrier='AntelUruguay'/>
+  <voicemail numeric='72405' vmnumber='*100' carrier='Claro Brasil'/>
+  <voicemail numeric='73003' vmnumber='*20' carrier='ClaroChile'/>
+  <voicemail numeric='71203' vmnumber='*80' carrier='ClaroCostaRica'/>
+  <voicemail numeric='338070' vmnumber='123' carrier='ClaroJamaica'/>
+  <voicemail numeric='71403' vmnumber='*111' carrier='ClaroPanama'/>
+  <voicemail numeric='71610' vmnumber='131' carrier='ClaroPeru'/>
+  <voicemail numeric='330110' vmnumber='*86' carrier='ClaroPuertoRico'/>
+  <voicemail numeric='37002' vmnumber='*99' carrier='ClaroRepublicaDominicana'/>
+  <voicemail numeric='70401' vmnumber='*80' carrier='ClaroGuatemala'/>
+  <voicemail numeric='70601' vmnumber='*80' carrier='ClaroElSalvador'/>
+  <voicemail numeric='708001' vmnumber='*80' carrier='ClaroHonduras'/>
+  <voicemail numeric='71073' vmnumber='*80' carrier='ClaroNicaragua'/>
+  <voicemail numeric='71203' vmnumber='*80' carrier='ClaroCostaRica'/>
+  <voicemail numeric='73001' vmnumber='#123' carrier='EntelChile'/>
+  <voicemail numeric='73010' vmnumber='#123' carrier='EntelChile'/>
+  <voicemail numeric='334050' vmnumber='*86' carrier='ATT Mexico'/>
+  <voicemail numeric='73406' vmnumber='*9' carrier='MovilnetVenezuela'/>
+  <voicemail numeric='72207' vmnumber='555' carrier='MovistarArgentina'/>
+  <voicemail numeric='72201' vmnumber='555' carrier='Tuenti Argentina'/>
+  <voicemail numeric='73002' vmnumber='500' carrier='MovistarChile'/>
+  <voicemail numeric='732123' vmnumber='*123' carrier='MovistarColombia'/>
+  <voicemail numeric='73212' vmnumber='*123' carrier='MovistarColombia'/>
+  <voicemail numeric='71204' vmnumber='*1690' carrier='MovistarCostaRica'/>
+  <voicemail numeric='74000' vmnumber='*82' carrier='MovistarEcuador'/>
+  <voicemail numeric='70604' vmnumber='*86' carrier='MovistarElSalvador'/>
+  <voicemail numeric='70403' vmnumber='*80' carrier='ClaroGuatemala'/>
+  <voicemail numeric='33403' vmnumber='*86' carrier='MovistarMexico'/>
+  <voicemail numeric='334030' vmnumber='*86' carrier='MovistarMexico'/>
+  <voicemail numeric='714020' vmnumber='*86' carrier='MovistarPanama'/>
+  <voicemail numeric='71606' vmnumber='*169' carrier='MovistarPeru'/>
+  <voicemail numeric='710300' vmnumber='*86' carrier='MovistarNicaragua'/>
+  <voicemail numeric='74807' vmnumber='6684' carrier='MovistarUruguay'/>
+  <voicemail numeric='73404' vmnumber='*2' carrier='MovistarVenezuela'/>
+  <voicemail numeric='72439' vmnumber='*100' carrier='NextelBrasil'/>
+  <voicemail numeric='33409' vmnumber='+525535396245' carrier='NextelMexico'/>
+  <voicemail numeric='334090' vmnumber='*86' carrier='ATT Mexico'/>
+  <voicemail numeric='72416' vmnumber='*100' carrier='Oi'/>
+  <voicemail numeric='72424' vmnumber='*100' carrier='Oi'/>
+  <voicemail numeric='72431' vmnumber='*100' carrier='Oi'/>
+  <voicemail numeric='74001' vmnumber='999' carrier='PortaEcuador'/>
+  <voicemail numeric='74404' vmnumber='*98' carrier='Tigo Paraguay'/>
+  <voicemail numeric='334020' vmnumber='*86' carrier='TelcelMexico'/>
+  <voicemail numeric='732103' vmnumber='*123' carrier='TigoColombia'/>
+  <voicemail numeric='732111' vmnumber='*123' carrier='TigoColombia'/>
+  <voicemail numeric='732130' vmnumber='+573508888888' carrier='AvantelColombia'/>
+  <voicemail numeric='732130' vmnumber='+573508888888' carrier='AvantelColombia' mvno_type='spn' mvno_match_data='Avantel 4G LTE'/>
+  <voicemail numeric='72402' vmnumber='*100' carrier='TIM Brasil'/>
+  <voicemail numeric='72403' vmnumber='*100' carrier='TIM Brasil'/>
+  <voicemail numeric='72404' vmnumber='*100' carrier='TIM Brasil'/>
+  <voicemail numeric='72417' vmnumber='*100' carrier='Surf Brasil'/>
+  <voicemail numeric='26202' vmnumber='5500' carrier='Vodafone Germany'/>
+  <voicemail numeric='26204' vmnumber='5500' carrier='Vodafone Germany'/>
+  <voicemail numeric='26209' vmnumber='5500' carrier='Vodafone Germany'/>
+  <voicemail numeric='20205' vmnumber='121' carrier='Vodafone GR'/>
+  <voicemail numeric='20416' vmnumber='+31624001233' carrier='T-Mobile Netherland'/>
+  <voicemail numeric='23430' vmnumber='222' carrier='Virgin UK' mvno_type='spn' mvno_match_data='Virgin'/>
+  <voicemail numeric='23431' vmnumber='222' carrier='Virgin UK' mvno_type='spn' mvno_match_data='Virgin'/>
+  <voicemail numeric='23432' vmnumber='222' carrier='Virgin UK' mvno_type='spn' mvno_match_data='Virgin'/>
+  <voicemail numeric='72406' vmnumber='*555' carrier='Vivo Brasil'/>
+  <voicemail numeric='72410' vmnumber='*555' carrier='Vivo Brasil'/>
+  <voicemail numeric='72411' vmnumber='*555' carrier='Vivo Brasil'/>
+  <voicemail numeric='72423' vmnumber='*555' carrier='Vivo Brasil'/>
+  <voicemail numeric='21403' vmnumber='242' carrier='Orange Spain'/>
+  <voicemail numeric='20801' vmnumber='888' carrier='Orange France'/>
+  <voicemail numeric='20802' vmnumber='888' carrier='Orange France'/>
+  <voicemail numeric='20810' vmnumber='123' carrier='SFR France'/>
+  <voicemail numeric='64710' vmnumber='123' carrier='SFR France'/>
+  <voicemail numeric='23410' vmnumber='901' carrier='O2 UK'/>
+  <voicemail numeric='23410' vmnumber='905' carrier='Tesco Mobile' mvno_type='spn' mvno_match_data='TESCO'/>
+  <voicemail numeric='20404' vmnumber='' carrier='U.S. Cellular' mvno_type='spn' mvno_match_data='U.S. Cellular'/>
+  <voicemail numeric='23207' vmnumber='+436776000' carrier='Ventocom' mvno_type='imsi' mvno_match_data='23207718xxxxxxx'/>
+  <voicemail numeric='23207' vmnumber='+436776000' carrier='Ventocom' mvno_type='imsi' mvno_match_data='2320776xxxxxxxx'/>
+  <voicemail numeric='23207' vmnumber='+436776000' carrier='Ventocom' mvno_type='imsi' mvno_match_data='23207799xxxxxxx'/>
+  <voicemail numeric='29340' vmnumber='+38669699690' carrier='Ventocom' mvno_type='imsi' mvno_match_data='29340013xxxxxxx'/>
+  <voicemail numeric='20404' vmnumber='+31654501233' carrier='Vodafone Netherlands'/>
+  <voicemail numeric='21401' vmnumber='22177' carrier='Vodafone Spain'/>
+  <voicemail numeric='21418' vmnumber='22177' carrier='Vodafone Spain'/>
+  <voicemail numeric='21405' vmnumber='22123' carrier='Buzón Movistar'/>
+  <voicemail numeric='21407' vmnumber='22123' carrier='Buzón Movistar'/>
+  <voicemail numeric='21670' vmnumber='170' carrier='Vodafone Hungary'/>
+  <voicemail numeric='22201' vmnumber='41919' carrier='TIM Italy'/>
+  <voicemail numeric='22206' vmnumber='42020' carrier='Vodafone Italy'/>
+  <voicemail numeric='22210' vmnumber='42020' carrier='Vodafone Italy'/>
+  <voicemail numeric='23003' vmnumber='+420608989898' carrier='Vodafone Czech Republic'/>
+  <voicemail numeric='23415' vmnumber='121' carrier='Vodafone UK'/>
+  <voicemail numeric='73009' vmnumber='*99' carrier='WOM'/>
+  <voicemail numeric='50503' vmnumber='121' carrier='Vodafone Hutchison Australia'/>
+  <voicemail numeric='50501' vmnumber='+61101' carrier='Telstra Australia'/>
+  <voicemail numeric='72454' vmnumber='*100' carrier='Porto Conecta Brasil'/>
+  <voicemail numeric='27202' vmnumber='171' carrier='Three Ireland'/>
+  <voicemail numeric='27205' vmnumber='171' carrier='Three Ireland'/>
+  <voicemail numeric='27211' vmnumber='171' carrier='Tesco Ireland' mvno_type='spn' mvno_match_data='Tesco Mobile'/>
+  <voicemail numeric='20601' vmnumber='171' carrier='Tesco Ireland' mvno_type='spn' mvno_match_data='Tesco Mobile'/>
+  <voicemail numeric='26806' vmnumber='+351962000000' carrier='Meo'/>
+  <voicemail numeric='65501' vmnumber='121' carrier='Vodafone South Africa'/>
+  <voicemail numeric='20420' vmnumber='+31624001233' carrier='T-Mobile Netherland'/>
+  <voicemail numeric='53024' vmnumber='+64222022002' carrier='2degrees'/>
+  <voicemail numeric='23420' vmnumber='+447782333123' carrier='H3G UK'/>
+  <voicemail numeric='23494' vmnumber='+447782333123' carrier='H3G UK'/>
+  <voicemail numeric='20820' vmnumber='+33660660001' carrier='Bouygues France'/>
+  <voicemail numeric='20821' vmnumber='+33660660001' carrier='Bouygues France'/>
+  <voicemail numeric='22288' vmnumber='4200' carrier='Wind'/>
+  <voicemail numeric='22299' vmnumber='4133' carrier='Tre'/>
+  <voicemail numeric='26003' vmnumber='*501' carrier='Orange Poland'/>
+  <voicemail numeric='26201' vmnumber='3311' carrier='T-mobile Deutsche'/>
+  <voicemail numeric='21901' vmnumber='+38598151100' carrier='T-mobile Croatia'/>
+  <voicemail numeric='29702' vmnumber='+3826714077' carrier='T-mobile Montenegro'/>
+  <voicemail numeric='26203' vmnumber='+491793000333' carrier='O2 DE'/>
+  <voicemail numeric='26207' vmnumber='+491793000333' carrier='O2 DE'/>
+  <voicemail numeric='20408' vmnumber='1233' carrier='KPN'/>
+  <voicemail numeric='20412' vmnumber='1233' carrier='Telfort'/>
+  <voicemail numeric='21404' vmnumber='+34622996111' carrier='Yoigo Spain'/>
+  <voicemail numeric='21404' vmnumber='+34622996111' carrier='Lycamobile Spain' mvno_type='imsi' mvno_match_data='2140426xxxxxxxx'/>
+</voicemail>

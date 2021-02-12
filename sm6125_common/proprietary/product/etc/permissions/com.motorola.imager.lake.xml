@@ -1,0 +1,4 @@
+<permissions>
+   <library name="com.motorola.imager.lake"
+       file="/system/framework/com.motorola.imager.lake" />
+</permissions>

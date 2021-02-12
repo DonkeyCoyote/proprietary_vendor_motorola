@@ -1,0 +1,5 @@
+on post-fs
+    chown root system /mnt/product/persist
+    chmod 0771 /mnt/product/persist
+    chmod 0774 /mnt/product/persist/factory/cqatest_pat_mode_order
+    restorecon_recursive /mnt/product/persist

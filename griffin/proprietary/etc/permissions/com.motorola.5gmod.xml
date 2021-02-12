@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<permissions>
-    <feature name="com.motorola.hardware.5gmod" />
-    <privapp-permissions package="com.motorola.mot5gmod">
-        <permission name="com.motorola.mod.permission.MOD_INTERNAL" />
-    </privapp-permissions>
-</permissions>

@@ -1,0 +1,4 @@
+<permissions>
+   <library name="com.motorola.imager.foles"
+       file="/system/framework/com.motorola.imager.foles" />
+</permissions>
